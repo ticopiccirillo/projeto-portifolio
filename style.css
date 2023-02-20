@@ -171,48 +171,55 @@ h2{
     background-color: #000000;
     font-family: sans-serif;
     padding: 10px;
-    color: #CE00EF;
+    color: #4EFF00;
     background-color: #000000;
     border-radius: 10px 10px 0 0;
 }
 
-#card-1 {
+#card-1{
     background-image: url('imagens/parede.jpg');
-    background-position: bottom right;
+    background-position: center center;
     background-size: cover;
+    width: 250px;
+    height: 400px;
 }
 
 #card-2 {
     background-image: url('imagens/login.jpeg');
     background-position: center center;
     background-size: cover;
-
+    width: 250px;
+    height: 400px;
 }
 
 #card-3 {
     background-image: url('imagens/android.jpeg');
     background-position: center center;
     background-size: cover;
-
+    width: 250px;
+    height: 400px;
 }
 
 #card-4 {
-    background-image: url('');
+    background-image: url('#');
     background-position: center center;
     background-size: cover;
-
+    width: 250px;
+    height: 400px;
 }
 
 #card-5 {
-    background-image: url('');
+    background-image: url('#');
     background-position: center center;
     background-size: cover;
-
+    width: 250px;
+    height: 400px;
 }
 
 #card-6 {
-    background-image: url('');
+    background-image: url('#');
     background-position: center center;
     background-size: cover;
-
+    width: 250px;
+    height: 400px;
 }
