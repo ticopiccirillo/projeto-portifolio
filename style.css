@@ -28,8 +28,22 @@ html {
     justify-content: space-between;
     width: 100%;
     height: 100px;
-   
     margin:auto;
+}
+
+#burger {
+    
+    color: #000000;
+    display: none;
+    text-align: center;
+    padding: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#buger:hover {
+
+    transform: .5s;
 }
 
 .itens {
@@ -84,6 +98,7 @@ img {
 a {
     text-decoration: none;
     color: #000000;
+    text-align: center;
 }
 
 .descricao {
@@ -182,6 +197,7 @@ h2{
     background-size: cover;
     width: 250px;
     height: 400px;
+    margin: auto;
 }
 
 #card-2 {
@@ -244,3 +260,33 @@ h2{
     padding-bottom: 4px;
 }
 
+hr {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+@media (max-width:805px){
+
+
+        
+    .section-1 {
+        display: block;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        text-justify: auto;
+    }
+
+    img {
+        margin: auto;
+        width: 250px;
+        height: 230px;
+        margin-bottom: 20px;
+    }    
+
+    }
