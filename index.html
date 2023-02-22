@@ -14,20 +14,25 @@
 <body id="container">
     <header>
         <nav class="nav">
-                <a class="itens" href="#sobre mim" target="_self">
-                    <li>Sobre mim</li>
-                </a>
-                <a class="itens" href="#projetos" target="_self">
-                    <li>Projetos</li>
-                </a>
-                <a class="itens" href="#contatos">
-                    <li>Contatos</li>
-                </a>
+            <i class="material-symbols-outlined" onclick="clickMenu()" id="burguer">menu</i>
+                <ul id="menu">
+                    <a class="itens" href="#sobre mim" target="_self">
+                        <li>Sobre mim</li>
+                    </a>
+                    <a class="itens" href="#projetos" target="_self">
+                        <li>Projetos</li>
+                    </a>
+                    <a class="itens" href="#contatos">
+                        <li>Contatos</li>
+                    </a>
+                </ul>
+                
         </nav>
         
     </header>
 
 <!--Section 1, contém a foto e uma descrição,-->
+
     <Section class="section-1">
             <img src="imagens/tico.jpeg" alt="Foto do tico">
         
@@ -41,10 +46,8 @@
         </div>
     </Section>
 
-
     <hr>
-    <!--Section-2 Descrição-->
-
+    
     <section class="sobre">
         <a name="sobre mim"></a>
             <h1>Sobre mim</h1>
@@ -132,6 +135,16 @@
     <footer>
         <p>Desenvolvido por Tico Piccirillo</p>
     </footer>
+
+    <script>
+       function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+       }
+    </script>
 
 </body>
 

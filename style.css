@@ -31,20 +31,28 @@ html {
     margin:auto;
 }
 
-#burger {
-    
-    color: #000000;
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+i#burguer {
     display: none;
+    color: #000000;
     text-align: center;
     padding: 20px;
-    margin-right: 30px;
     cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
 }
 
-#buger:hover {
-
-    transform: .5s;
+i#burguer:hover {
+    color: #4EFF00;
 }
+
 
 .itens {
     position: relative;
@@ -106,6 +114,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -171,7 +180,7 @@ p {
     color: black;
 }
 
-.card{
+.card {
     flex: 1 1 250px;
     height: 400px;
     background-color: rgb(255, 255, 255);
@@ -260,9 +269,6 @@ h2{
     padding-bottom: 4px;
 }
 
-hr {
-    margin: auto;
-}
 
 footer {
     text-align: center;
@@ -272,8 +278,8 @@ footer {
 
 @media (max-width:805px){
 
+   
 
-        
     .section-1 {
         display: block;
         margin: auto;
@@ -288,5 +294,64 @@ footer {
         height: 230px;
         margin-bottom: 20px;
     }    
+
+    }
+
+    @media (max-width:420px){
+
+        i#burguer {
+            display: flex;
+        }
+
+        #menu {
+            display: none;
+            
+        }
+
+    .section-1 {
+        display: block;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        text-justify: auto;
+    }
+
+    img {
+        margin: auto;
+        width: 250px;
+        height: 230px;
+        margin-bottom: 20px;
+    }    
+
+    h1 {
+        font-size: 2em;
+        
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .card {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #cards {
+        display: block;
+    }
+
+    p {
+        font-size: 1em;
+        letter-spacing: .3px;
+    }
+
+    #card-5 {
+        display: none;
+    }
+
+    #card-6 {
+        display: none;
+    }
 
     }
