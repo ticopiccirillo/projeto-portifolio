@@ -14,7 +14,6 @@ html {
     background-color: black;
 }
 
-
 #container{
     max-width: 900px;
     height: auto;
@@ -52,7 +51,6 @@ i#burguer {
 i#burguer:hover {
     color: #4EFF00;
 }
-
 
 .itens {
     position: relative;
@@ -130,7 +128,7 @@ h1 {
 
 p {
     color: rgb(0, 0, 0);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
     width: 75%;
     text-align: justify;
@@ -162,7 +160,6 @@ p {
     margin-bottom: 50px;
 }
 
-
 #projetos {
     display: block;
 }
@@ -190,8 +187,7 @@ p {
     box-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
 }
 
-
-h2{
+h2 {
     background-color: #000000;
     font-family: sans-serif;
     padding: 10px;
@@ -200,37 +196,65 @@ h2{
     border-radius: 10px 10px 0 0;
 }
 
-#card-1{
+#card-1 {
     background-image: url('imagens/parede.jpg');
     background-position: center center;
     background-size: cover;
-    width: 250px;
+    width: 300px;
     height: 400px;
     margin: auto;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#card-1:hover {
+    transform: scale(1.02);
 }
 
 #card-2 {
     background-image: url('imagens/login.jpeg');
     background-position: center center;
     background-size: cover;
-    width: 250px;
+    width: 300px;
     height: 400px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#card-2:hover {
+    transform: scale(1.02);
 }
 
 #card-3 {
     background-image: url('imagens/android.jpeg');
     background-position: center center;
     background-size: cover;
-    width: 250px;
+    width: 300px;
+    cursor: pointer;
+    transition: .3s;
     height: 400px;
+}
+
+#card-3:hover {
+    transform: scale(1.02);
 }
 
 #card-4 {
     background-image: url('#');
     background-position: center center;
     background-size: cover;
-    width: 250px;
+    width: 300px;
     height: 400px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#card-4:hover {
+    background-image: url('imagens/em-breve-400x300.jpg');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 #card-5 {
@@ -254,7 +278,6 @@ h2{
     margin: auto;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .icone-contato {
@@ -269,89 +292,89 @@ h2{
     padding-bottom: 4px;
 }
 
-
 footer {
     text-align: center;
     justify-items: center;
     padding: 10px;
+    font-size: .9em;
 }
 
-@media (max-width:805px){
+@media (max-width:805px)
+    {
+        .section-1 {
+            display: block;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            text-justify: auto;
+        }
 
-   
-
-    .section-1 {
-        display: block;
-        margin: auto;
-        align-items: center;
-        text-align: center;
-        text-justify: auto;
-    }
-
-    img {
-        margin: auto;
-        width: 250px;
-        height: 230px;
-        margin-bottom: 20px;
-    }    
+        img {
+            margin: auto;
+            width: 250px;
+            height: 230px;
+            margin-bottom: 20px;
+        }    
 
     }
 
-    @media (max-width:420px){
-
+@media (max-width:420px)
+    {
         i#burguer {
             display: flex;
-        }
+            align-items: end;
+            }
 
         #menu {
             display: none;
+                
+            }
+
+        .section-1 {
+            display: block;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            text-justify: auto;
+        }
+
+        img {
+            margin: auto;
+            width: 250px;
+            height: 230px;
+            margin-bottom: 20px;
+        }    
+
+        h1 {
+            font-size: 2.5em;
             
         }
 
-    .section-1 {
-        display: block;
-        margin: auto;
-        align-items: center;
-        text-align: center;
-        text-justify: auto;
-    }
+        h2 {
+            font-size: 1.3em;
+        }
 
-    img {
-        margin: auto;
-        width: 250px;
-        height: 230px;
-        margin-bottom: 20px;
-    }    
+        .card {
+            display: block;
+            margin: 20px auto;
+        }
 
-    h1 {
-        font-size: 2em;
-        
-    }
+        #cards {
+            display: block;
+        }
 
-    h2 {
-        font-size: 1.3em;
-    }
+        p {
+            font-size: 1em;
+            letter-spacing: .3px;
+            text-align: center;
+        }
 
-    .card {
-        display: block;
-        margin: 20px auto;
-    }
+        #card-5 {
+            display: none;
+        }
 
-    #cards {
-        display: block;
-    }
-
-    p {
-        font-size: 1em;
-        letter-spacing: .3px;
-    }
-
-    #card-5 {
-        display: none;
-    }
-
-    #card-6 {
-        display: none;
-    }
+        #card-6 {
+            display: none;
+        }
 
     }
