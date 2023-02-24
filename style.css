@@ -326,8 +326,22 @@ footer {
 
         #menu {
             display: none;
-                
+            position: absolute;
+            left: -24px;
+            top: 76px;
+            width: auto;
             }
+
+            .itens {
+                background-color: #4EFF00;
+                color: #000000;
+                width: 80%;
+                margin: auto;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                padding: 5px;
+            }
+
 
         .section-1 {
             display: block;
