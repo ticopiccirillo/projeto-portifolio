@@ -301,6 +301,11 @@ footer {
     font-size: .9em;
 }
 
+#footer {
+    text-align: center;
+    margin: auto;
+}
+
 @media (max-width:805px)
     {
         .section-1 {
@@ -347,7 +352,6 @@ footer {
             padding: 5px;
             text-shadow: 1px 1px 1px #4dff00;
         }
-
 
         .section-1 {
             display: block;
@@ -407,27 +411,25 @@ footer {
             align-items: end;
             }
 
-            #menu {
-                display: none;
-                position: absolute;
-                top: 76px;
-                left: 8px;
-                width: 90%;
-                
-                }
-    
-                .itens {
-                    background-color: #0000006b;
-                    color: #000000;
-                    border: none;
-                    width: 100%;
-                    margin: auto;
-                    border-radius: 5px;
-                    margin-bottom: 5px;
-                    padding: 5px;
-                    text-shadow: 1px 1px 1px #4dff00;
-                }
+        #menu {
+            display: none;
+            position: absolute;
+            top: 76px;
+            left: 8px;
+            width: 90%;
+            }
 
+        .itens {
+            background-color: #0000006b;
+            color: #000000;
+            border: none;
+            width: 100%;
+            margin: auto;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+            text-shadow: 1px 1px 1px #4dff00;
+            }
 
         .section-1 {
             display: block;
@@ -446,7 +448,6 @@ footer {
 
         h1 {
             font-size: 2.5em;
-            
         }
 
         h2 {
@@ -477,9 +478,5 @@ footer {
         #card-6 {
             display: none;
         }
-
-
-
-
     }
 
