@@ -17,7 +17,7 @@ html {
 #container{
     max-width: 900px;
     height: auto;
-    background-color: #CE00EF;
+    background: linear-gradient( to bottom, #1500ff 10%, #420084) 30%;
     margin: 10px auto;
 }
 
@@ -327,20 +327,20 @@ footer {
         #menu {
             display: none;
             position: absolute;
-            left: -24px;
             top: 76px;
-            width: auto;
+            width: 83%;
+            
             }
 
-            .itens {
-                background-color: #4EFF00;
-                color: #000000;
-                width: 80%;
-                margin: auto;
-                border-radius: 5px;
-                margin-bottom: 5px;
-                padding: 5px;
-            }
+        .itens {
+            background-color: #4EFF00;
+            color: #000000;
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
 
 
         .section-1 {
@@ -370,10 +370,12 @@ footer {
         .card {
             display: block;
             margin: 20px auto;
+            width: 50%;
         }
 
         #cards {
             display: block;
+            width: auto;
         }
 
         p {
