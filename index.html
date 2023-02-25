@@ -11,141 +11,143 @@
 
 <!-- header, contém o menu de navegação-->
 
-<body id="container">
-    <header>
-        <nav class="nav">
-            <i class="material-symbols-outlined" onclick="clickMenu()" id="burguer">menu</i>
-                <ul id="menu">
-                    <a class="itens" href="#sobre mim" target="_self">
-                        <li>Sobre mim</li>
-                    </a>
-                    <a class="itens" href="#projetos" target="_self">
-                        <li>Projetos</li>
-                    </a>
-                    <a class="itens" href="#contatos">
-                        <li>Contatos</li>
-                    </a>
-                </ul>
-                
-        </nav>
-        
-    </header>
-
-<!--Section 1, contém a foto e uma descrição,-->
-
-    <Section class="section-1">
-            <img src="imagens/tico.jpeg" alt="Foto do tico">
-        
-        <div class="descricao" >
-            <h1>Olá Mundo!</h1>
-
-            <p>Me chamo <strong><a href="https://instagram.com/ticopiccirillo" target="_blank" rel="external">Francisco Piccirillo</a></strong>, mas todos me chamam de TICO.
-                <br>
-            <strong>Futuro Desenvolvedor Web FrontEnd</strong></p>
-         
-        </div>
-    </Section>
-
-    <hr>
-    
-    <section class="sobre">
-        <a name="sobre mim"></a>
-            <h1>Sobre mim</h1>
-        </a>
-        
-            <p>Sempre gostei da aréa de tecnologia, mas, só me interessei por desenvolver/programar a alguns meses. Estudo todos os dias, o máximo que posso, sempre procurando aprender coisa novas. <br> Atualmente estou estudando <STRONG>HTML5, CSS3 e JAVASCRIPT</STRONG>. No momento estou realizando pequenos projetos práticos para fixar o conteúdo que aprendi. <br> Desde já me coloco a disposição para qualquer contato, e me disponibilizo para ajudar e participar de projetos, onde possa aprender, ajudar e desenvolver minhas habilidades.</p>
-        
-    </section>
-
-    <hr>
-
-    <section class="projetos">
-        
-            <a name="projetos">
-                <h1>Projetos</h1>
-            </a>
-      
-        <article id="cards">
-            <a href="https://ticopiccirillo.github.io/projeto-cfboq/" target="_blank">
-                <div class="card" id="card-1">
-                    <h2>Projeto CFBOQ</h2>
-            
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="card" id="card-2">
-                    <h2>Projeto tela de login</h2>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="card" id="card-3">
-                    <h2>Projeto Android</h2>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="card" id="card-4">
-                    <h2>Novo Projeto</h2>
-                </div>
-            </a>
-
-            <!--<a href="#">
-                <div class="card" id="card-5">
-                    <h2>Novo Projeto </h2>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="card" id="card-6">
-                    <h2>Novo Projeto </h2>
-                </div>
-            </a>-->
-            
-        </article>
-    </section>
-
-    <hr>
-
-    <section class="contatos">
-        <aside>
-            <a name="contatos">
-                <h1>Contatos</h1>
-            </a>
-            
-                <div class="contatos-icone">
-                   
-                    <a href="https://instagram.com/ticopiccirillo" target="_blank">
-                        <img src="imagens/insta.png" class="icone-contato" alt="icone instagram"> 
-                    </a>
+<body>
+    <main id="container">
+        <header>
+            <nav class="nav">
+                <i class="material-symbols-outlined" onclick="clickMenu()" id="burguer">menu</i>
+                    <ul id="menu">
+                        <a class="itens" href="#sobre mim" target="_self">
+                            <li>Sobre mim</li>
+                        </a>
+                        <a class="itens" href="#projetos" target="_self">
+                            <li>Projetos</li>
+                        </a>
+                        <a class="itens" href="#contatos">
+                            <li>Contatos</li>
+                        </a>
+                    </ul>
                     
-                    <a href="https://github.com/ticopiccirillo">
-                        <img src="imagens/github2.png" class="icone-contato" alt="icone github"> 
-                    </a>
+            </nav>
+            
+        </header>
 
-                    <a href="https://www.linkedin.com/in/francisco-piccirillo-908314261/">
-                        <img src="imagens/linkedin.png" class="icone-contato" alt="icone linkedin"> 
-                    </a>
-                </div>
-        </aside>
-    </section>
+    <!--Section 1, contém a foto e uma descrição,-->
 
-    <hr>
+        <Section class="section-1">
+                <img src="imagens/tico.jpeg" alt="Foto do tico">
+            
+            <div class="descricao" >
+                <h1>Olá Mundo!</h1>
 
-    <footer>
-        <p>Desenvolvido por Tico Piccirillo</p>
-    </footer>
+                <p>Me chamo <strong><a href="https://instagram.com/ticopiccirillo" target="_blank" rel="external">Francisco Piccirillo</a></strong>, mas todos me chamam de TICO.
+                    <br>
+                <strong>Futuro Desenvolvedor Web FrontEnd</strong></p>
+            
+            </div>
+        </Section>
 
-    <script>
-       function clickMenu() {
-        if (menu.style.display == 'block') {
-            menu.style.display = 'none'
-        } else {
-            menu.style.display = 'block'
+        <hr>
+        
+        <section class="sobre">
+            <a name="sobre mim"></a>
+                <h1>Sobre mim</h1>
+            </a>
+            
+                <p>Sempre gostei da aréa de tecnologia, mas, só me interessei por desenvolver/programar a alguns meses. Estudo todos os dias, o máximo que posso, sempre procurando aprender coisa novas. <br> Atualmente estou estudando <STRONG>HTML5, CSS3 e JAVASCRIPT</STRONG>. No momento estou realizando pequenos projetos práticos para fixar o conteúdo que aprendi. <br> Desde já me coloco a disposição para qualquer contato, e me disponibilizo para ajudar e participar de projetos, onde possa aprender, ajudar e desenvolver minhas habilidades.</p>
+            
+        </section>
+
+        <hr>
+
+        <section class="projetos">
+            
+                <a name="projetos">
+                    <h1>Projetos</h1>
+                </a>
+        
+            <article id="cards">
+                <a href="https://ticopiccirillo.github.io/projeto-cfboq/" target="_blank">
+                    <div class="card" id="card-1">
+                        <h2>Projeto CFBOQ</h2>
+                
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="card" id="card-2">
+                        <h2>Projeto tela de login</h2>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="card" id="card-3">
+                        <h2>Projeto Android</h2>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="card" id="card-4">
+                        <h2>Novo Projeto</h2>
+                    </div>
+                </a>
+
+                <!--<a href="#">
+                    <div class="card" id="card-5">
+                        <h2>Novo Projeto </h2>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="card" id="card-6">
+                        <h2>Novo Projeto </h2>
+                    </div>
+                </a>-->
+                
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="contatos">
+            <aside>
+                <a name="contatos">
+                    <h1>Contatos</h1>
+                </a>
+                
+                    <div class="contatos-icone">
+                    
+                        <a href="https://instagram.com/ticopiccirillo" target="_blank">
+                            <img src="imagens/insta.png" class="icone-contato" alt="icone instagram"> 
+                        </a>
+                        
+                        <a href="https://github.com/ticopiccirillo">
+                            <img src="imagens/github2.png" class="icone-contato" alt="icone github"> 
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/francisco-piccirillo-908314261/">
+                            <img src="imagens/linkedin.png" class="icone-contato" alt="icone linkedin"> 
+                        </a>
+                    </div>
+            </aside>
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>Desenvolvido por Tico Piccirillo</p>
+        </footer>
+
+        <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
         }
-       }
-    </script>
+        </script>
+    </main>
 
 </body>
 
