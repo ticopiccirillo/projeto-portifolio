@@ -66,11 +66,10 @@ i#burguer:hover {
     text-decoration: none;
     color: #4EFF00;
     text-shadow: 1px 1px 1px #000000;
-    
 }
 
 .itens:after {
-    content:  "";
+    content: " ";
     position: absolute;
     background-color: #4EFF00;
     height: 3px;
@@ -93,7 +92,7 @@ i#burguer:hover {
     margin: auto;
 }
 
-img {
+.section-1 img {
     display: flex;
     width: 301px;
     height: 280px;
@@ -106,8 +105,13 @@ img {
 
 a {
     text-decoration: none;
+    color: #4EFF00;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+}
+
+strong {
     color: #000000;
-    text-align: center;
+    text-shadow: none;
 }
 
 .descricao {
@@ -130,7 +134,8 @@ h1 {
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: #ffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.558);
     font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
     width: 75%;
@@ -173,18 +178,16 @@ p {
     flex-direction: row;
     width: auto;
     justify-content: space-evenly;
-    max-width: auto;
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    color: black;
 }
 
 .card {
-    flex: 1 1 250px;
+    
     height: 400px;
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    margin-bottom: 15%;
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
@@ -205,9 +208,10 @@ h2 {
     background-size: cover;
     width: 300px;
     height: 400px;
-    margin: auto;
+    margin: 20px auto;
     cursor: pointer;
     transition: .3s;
+    
 }
 
 #card-1:hover {
@@ -220,6 +224,7 @@ h2 {
     background-size: cover;
     width: 300px;
     height: 400px;
+    margin: 20px auto;
     cursor: pointer;
     transition: .3s;
 }
@@ -233,6 +238,8 @@ h2 {
     background-position: center center;
     background-size: cover;
     width: 300px;
+    height: 400px;
+    margin: 20px auto;
     cursor: pointer;
     transition: .3s;
     height: 400px;
@@ -243,36 +250,40 @@ h2 {
 }
 
 #card-4 {
-    background-image: url('#');
-    background-position: center center;
+    background-image: url('imagens/fornada2.jpeg');
+    background-position: center top;
     background-size: cover;
     width: 300px;
     height: 400px;
+    margin: 20px auto;
     cursor: pointer;
     transition: .3s;
 }
 
 #card-4:hover {
-    background-image: url('imagens/em-breve-400x300.jpg');
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    transform: scale(1.02);
 }
 
 #card-5 {
-    background-image: url('#');
+    background-image: url('imagens/em-breve.png');
     background-position: center center;
-    background-size: cover;
-    width: 250px;
+    background-size: contain;
+    width: 300px;
     height: 400px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: .3s;
 }
 
 #card-6 {
-    background-image: url('#');
+    background-image: url('imagens/em-breve.png');
     background-position: center center;
-    background-size: cover;
-    width: 250px;
+    background-size: contain;
+    width: 300px;
     height: 400px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: .3s;
 }
 
 .contatos-icone{
@@ -285,13 +296,15 @@ h2 {
 .icone-contato {
     border-radius: 0%;
     box-shadow: none;
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-    margin-right: 0px;
+    width: 60px;
+    height: 60px;
     align-items: center;
-    margin-bottom: 3px;
-    padding-bottom: 4px;
+    padding-bottom: 50%;
+    transition: .6s;
+}
+
+.icone-contato:hover {
+    transform: scale(1.5);
 }
 
 footer {
@@ -305,26 +318,48 @@ footer {
     margin: auto;
 }
 
-@media (max-width:805px)
+@media (max-width:730px)
     {
         .section-1 {
             display: block;
-            margin: auto;
+            justify-content: space-between;
             align-items: center;
-            text-align: center;
-            text-justify: auto;
+            margin-bottom: 20px;
+            margin: auto;
         }
 
-        img {
-            margin: auto;
+        .section-1 img {
+            display: flex;
             width: 250px;
-            height: 230px;
-            margin-bottom: 20px;
-        }    
+            height: 199px;
+            border-radius: 50%;
+            box-shadow: 2px 5px 5px rgb(1 1 1 / 56%);
+            margin: 10% auto;
+            
+        } 
 
+        #cards {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        .card {
+            display: block;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+        }
     }
 
-@media (max-width:420px)
+@media (max-width:620px)
     {
         i#burguer {
             display: flex;
@@ -335,8 +370,8 @@ footer {
             display: none;
             position: absolute;
             top: 76px;
-            left: 8px;
-            width: 90%;
+            left: 19px;
+            width: 91%;
             
             }
 
@@ -354,18 +389,12 @@ footer {
 
         .section-1 {
             display: block;
+            width: auto;
             margin: auto;
             align-items: center;
             text-align: center;
             text-justify: auto;
         }
-
-        img {
-            margin: auto;
-            width: 250px;
-            height: 230px;
-            margin-bottom: 20px;
-        }    
 
         h1 {
             font-size: 2.5em;
@@ -385,6 +414,7 @@ footer {
         #cards {
             display: block;
             width: auto;
+            margin-bottom: 20px;
         }
 
         p {
@@ -393,13 +423,6 @@ footer {
             text-align: center;
         }
 
-        #card-5 {
-            display: none;
-        }
-
-        #card-6 {
-            display: none;
-        }
 
     }
 
@@ -470,12 +493,6 @@ footer {
             text-align: center;
         }
 
-        #card-5 {
-            display: none;
-        }
-
-        #card-6 {
-            display: none;
-        }
+       
     }
 
