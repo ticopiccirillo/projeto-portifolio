@@ -20,7 +20,7 @@ header {
 #container{
     max-width: 900px;
     height: auto;
-    background: linear-gradient(to bottom, #4330eb, #2b1cb5,#5e00ca, #44004b);
+    background: linear-gradient(to bottom, #2313b5, #22149a,#4b009f, #3b0041);
     margin: 10px auto;
 }
 
@@ -184,7 +184,6 @@ p {
 }
 
 .card {
-    
     height: 400px;
     background-color: rgb(255, 255, 255);
     margin-bottom: 15%;
@@ -202,8 +201,7 @@ h2 {
     border-radius: 10px 10px 0 0;
 }
 
-#card-1 {
-    background-image: url('imagens/parede.jpg');
+div.cardsall{
     background-position: center center;
     background-size: cover;
     width: 300px;
@@ -211,79 +209,34 @@ h2 {
     margin: 20px auto;
     cursor: pointer;
     transition: .3s;
-    
 }
 
-#card-1:hover {
+div.cardsall:hover {
     transform: scale(1.02);
+}
+
+#card-1 {
+    background-image: url('imagens/parede.jpg');
 }
 
 #card-2 {
     background-image: url('imagens/login.jpeg');
-    background-position: center center;
-    background-size: cover;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#card-2:hover {
-    transform: scale(1.02);
 }
 
 #card-3 {
     background-image: url('imagens/android.jpeg');
-    background-position: center center;
-    background-size: cover;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: .3s;
-    height: 400px;
-}
-
-#card-3:hover {
-    transform: scale(1.02);
 }
 
 #card-4 {
     background-image: url('imagens/fornada2.jpeg');
-    background-position: center top;
-    background-size: cover;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#card-4:hover {
-    transform: scale(1.02);
 }
 
 #card-5 {
     background-image: url('imagens/em-breve.png');
-    background-position: center center;
-    background-size: contain;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: .3s;
 }
 
 #card-6 {
     background-image: url('imagens/em-breve.png');
-    background-position: center center;
-    background-size: contain;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: .3s;
 }
 
 .contatos-icone{

@@ -68,38 +68,38 @@
         
             <article id="cards">
                 <a href="https://ticopiccirillo.github.io/projeto-cfboq/" target="_blank">
-                    <div class="card" id="card-1">
+                    <div class="card cardsall" id="card-1">
                         <h2>Projeto CFBOQ</h2>
                     </div>
                 </a>
 
                 <a href="https://ticopiccirillo.github.io/projeto-formulario/" target="_blank">
-                    <div class="card" id="card-2">
+                    <div class="card cardsall" id="card-2">
                         <h2>Projeto tela de login</h2>
                     </div>
                 </a>
 
                 <a href="https://ticopiccirillo.github.io/projeto-android/" target="_blank">
-                    <div class="card" id="card-3">
+                    <div class="card cardsall" id="card-3">
                         <h2>Projeto Android</h2>
                     </div>
                 </a>
 
                 <a href="https://ticopiccirillo.github.io/projeto-fornada013/" target="_blank">
-                    <div class="card" id="card-4">
+                    <div class="card cardsall" id="card-4">
                         <h2>Projeto Fornada 013</h2>
                     </div>
                 </a>
 
                 <a href="#">
-                    <div class="card" id="card-5">
+                    <div class="card cardsall" id="card-5">
                         <h2>Novo Projeto </h2>
                         <img class="projeto-card"src="" alt="">
                     </div>
                 </a>
 
                 <a href="#">
-                    <div class="card" id="card-6">
+                    <div class="card cardsall" id="card-6">
                         <h2>Novo Projeto </h2>
                     </div>
                 </a>
@@ -146,6 +146,15 @@
                 menu.style.display = 'block'
             }
         }
+
+        let proj = window.document.getElementById('card-4')
+        proj.addEventListener('click', clicar)
+       
+        function clicar() {
+            window.alert(`Projeto executado todo pensando em MOBILE FIRST, a versão desktop ainda está em execução.`)
+        }
+
+       
         </script>
     </main>
 
