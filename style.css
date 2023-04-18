@@ -11,14 +11,18 @@
 }
 
 html {
-    background-color: black;
+    background-color: rgb(133, 133, 133);
 }
-header {
+#header {
     width: auto;
+    background: linear-gradient(to bottom, #2313b5, #22149a);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #container{
-    max-width: 900px;
+    max-width: 1600px;
     height: auto;
     background: linear-gradient(to bottom, #2313b5, #22149a,#4b009f, #3b0041);
     margin: 10px auto;
@@ -90,6 +94,7 @@ i#burguer:hover {
     align-items: center;
     margin-bottom: 20px;
     margin: auto;
+    height: 90vh;
 }
 
 .section-1 img {
@@ -155,10 +160,11 @@ p {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 100vh;
 }
 
 .projetos {
-    max-width: 900px;
+    max-width: 1200px;
     height: auto;
     display: block;
     justify-content: center;
@@ -166,6 +172,7 @@ p {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 
 #projetos {
@@ -199,6 +206,11 @@ h2 {
     color: #4EFF00;
     background-color: #000000;
     border-radius: 10px 10px 0 0;
+}
+
+.descriçao {
+    width: 300px;
+    height: 250px;
 }
 
 div.cardsall{
